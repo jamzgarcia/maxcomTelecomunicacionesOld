@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^maxcom\.maxcomtelecomunicaciones\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.maxcom\.maxcomtelecomunicaciones\.com$
+RewriteRule ^/?$ "http\:\/\/maxcomtelecomunicaciones\.com" [R=301,L]
+
